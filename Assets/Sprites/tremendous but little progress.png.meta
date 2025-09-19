@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 5a51660f754e36847bec3081398c2164
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4790284199114341024
+    second: tremendous but little progress_0
+  - first:
+      213: -1643450810687391821
+    second: tremendous but little progress_1
+  - first:
+      213: 651004089637732357
+    second: tremendous but little progress_2
+  - first:
+      213: 3287172541294047407
+    second: tremendous but little progress_3
+  - first:
+      213: 1508039913073467226
+    second: tremendous but little progress_4
+  - first:
+      213: -2475318586238956548
+    second: tremendous but little progress_5
+  - first:
+      213: 2803660644561984012
+    second: tremendous but little progress_6
+  - first:
+      213: -7433173748935405774
+    second: tremendous but little progress_7
+  - first:
+      213: 2108893961375588267
+    second: tremendous but little progress_8
+  - first:
+      213: 8616258563799712225
+    second: tremendous but little progress_9
+  - first:
+      213: -542284422892762760
+    second: tremendous but little progress_10
+  - first:
+      213: -6063476392486988719
+    second: tremendous but little progress_11
+  - first:
+      213: 4251113800848558021
+    second: tremendous but little progress_12
+  - first:
+      213: -1209308725203616135
+    second: tremendous but little progress_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tremendous but little progress_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 979
+        width: 112
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa706d59128a7240800000000000000
+      internalID: 4790284199114341024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 979
+        width: 112
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7762fe13a4139e0800000000000000
+      internalID: -1643450810687391821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 979
+        width: 112
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5000f2635c4d80900800000000000000
+      internalID: 651004089637732357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 979
+        width: 142
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0ff3792026e9d20800000000000000
+      internalID: 3287172541294047407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 679
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fdadd9f42ade410800000000000000
+      internalID: 1508039913073467226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 689
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb0e415cd6e5add0800000000000000
+      internalID: -2475318586238956548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 759
+        width: 102
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a1cd5708a98e620800000000000000
+      internalID: 2803660644561984012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_7
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 689
+        width: 112
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f42f4abdf08d890800000000000000
+      internalID: -7433173748935405774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_8
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 659
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf12cc62eb444d10800000000000000
+      internalID: 2108893961375588267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 459
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1033c4389139770800000000000000
+      internalID: 8616258563799712225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 459
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879cf36c03b6978f0800000000000000
+      internalID: -542284422892762760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 459
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15498d1c8543adba0800000000000000
+      internalID: -6063476392486988719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_12
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 369
+        width: 122
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7c65f7a7dfefa30800000000000000
+      internalID: 4251113800848558021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tremendous but little progress_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 122
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e35722f1ca73fe0800000000000000
+      internalID: -1209308725203616135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tremendous but little progress_0: 4790284199114341024
+      tremendous but little progress_1: -1643450810687391821
+      tremendous but little progress_10: -542284422892762760
+      tremendous but little progress_11: -6063476392486988719
+      tremendous but little progress_12: 4251113800848558021
+      tremendous but little progress_13: -1209308725203616135
+      tremendous but little progress_2: 651004089637732357
+      tremendous but little progress_3: 3287172541294047407
+      tremendous but little progress_4: 1508039913073467226
+      tremendous but little progress_5: -2475318586238956548
+      tremendous but little progress_6: 2803660644561984012
+      tremendous but little progress_7: -7433173748935405774
+      tremendous but little progress_8: 2108893961375588267
+      tremendous but little progress_9: 8616258563799712225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
