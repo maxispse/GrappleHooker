@@ -1,28 +1,10 @@
 fileFormatVersion: 2
-guid: c64ee089fe8934f4fbb8bd963668f584
+guid: 5116e6cfa22e6804cb3052a7e749e8ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4809486443857263357
-    second: almost everything_0
-  - first:
-      213: -6760431488692556071
-    second: almost everything_1
-  - first:
-      213: -6971315958954350309
-    second: almost everything_2
-  - first:
-      213: -1577912393311037452
-    second: almost everything_3
-  - first:
-      213: -2416731324846481075
-    second: almost everything_4
-  - first:
-      213: -1728649704896896600
-    second: almost everything_5
-  - first:
-      213: -8297435197884075337
-    second: almost everything_6
+      213: 5366325163180332684
+    second: backegroundies_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,122 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: almost everything_0
+      name: backegroundies_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
-        width: 320
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 305c4d1af85414db0800000000000000
-      internalID: -4809486443857263357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_1
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1280
-        width: 320
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9de6d1c116f1e22a0800000000000000
-      internalID: -6760431488692556071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_2
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 1280
-        width: 320
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b19a3892219e04f90800000000000000
-      internalID: -6971315958954350309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_3
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 1280
-        width: 90
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f75206d9012a1ae0800000000000000
-      internalID: -1577912393311037452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_4
-      rect:
-        serializedVersion: 2
-        x: 1502
-        y: 1280
-        width: 98
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4167f81aab067ed0800000000000000
-      internalID: -2416731324846481075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_5
-      rect:
-        serializedVersion: 2
-        x: 221
         y: 960
-        width: 99
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -243,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a1698e804a9208e0800000000000000
-      internalID: -1728649704896896600
+      spriteID: c869a9ccd44097a40800000000000000
+      internalID: 5366325163180332684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_6
+      name: backegroundies_1
       rect:
         serializedVersion: 2
         x: 320
@@ -263,16 +135,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b2fb4336a699dc80800000000000000
-      internalID: -8297435197884075337
+      spriteID: 64a73de3abd80bb49a69adc92bd2b0bb
+      internalID: -121135973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_7
+      name: backegroundies_2
       rect:
         serializedVersion: 2
         x: 640
@@ -287,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8ccfd0bbec4332439a41e292bc44cf1
-      internalID: 242563260
+      spriteID: 34c4ea22da93ee14daf5174a07283123
+      internalID: -1488950957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_8
+      name: backegroundies_3
       rect:
         serializedVersion: 2
         x: 960
@@ -309,36 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00584903f40d3c4b96921df2c3de471
-      internalID: -273254640
+      spriteID: 6d881d608e24bdc4992817127a241afe
+      internalID: -1986173732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_9
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95da9feed33a290438907f86b753bcf4
-      internalID: -461707932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_10
+      name: backegroundies_4
       rect:
         serializedVersion: 2
         x: 0
@@ -353,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46f60ddd91e89744c987871923d11697
-      internalID: 67107203
+      spriteID: 2a50b41a25850fa4a9a497adfc614689
+      internalID: 1442721381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_11
+      name: backegroundies_5
       rect:
         serializedVersion: 2
         x: 320
@@ -375,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 883033674d88d494ea08d36393827854
-      internalID: -859642621
+      spriteID: 4d454f742b00b1547a1eb494a85bf1aa
+      internalID: -1652943729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_12
+      name: backegroundies_6
       rect:
         serializedVersion: 2
         x: 640
@@ -397,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c9188660aca404a861f882ca281739
-      internalID: -1554325885
+      spriteID: db8bc2d4dd9bf9045a725c52626cd76d
+      internalID: 401373115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_13
+      name: backegroundies_7
       rect:
         serializedVersion: 2
         x: 960
@@ -419,36 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0085eff99e353bd4ca472c379c0676b3
-      internalID: -935551252
+      spriteID: 6883d48add6d27e469ede575fd8818a9
+      internalID: -276260814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_14
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d42f8710f606cee4dbcabbfa9bb09a23
-      internalID: 1140965742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_15
+      name: backegroundies_8
       rect:
         serializedVersion: 2
         x: 0
@@ -463,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 335760fe8f535e0419dd6021eec40f40
-      internalID: -1692418204
+      spriteID: fe343ee759c2f8b4693aa649256cafd3
+      internalID: 771964762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_16
+      name: backegroundies_9
       rect:
         serializedVersion: 2
         x: 320
@@ -485,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7271c8ab18d191244bdbfdb035ff14b6
-      internalID: -1764815331
+      spriteID: ee452edaf087c7d4eac81c5d8acbfc9c
+      internalID: -184389561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_17
+      name: backegroundies_10
       rect:
         serializedVersion: 2
         x: 640
@@ -507,14 +335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be91ac5fbf8d40e4f9966e135b4c3f69
-      internalID: -1260575638
+      spriteID: 3e5a79c2d85a97842974e6f56e758be9
+      internalID: 96993206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_18
+      name: backegroundies_11
       rect:
         serializedVersion: 2
         x: 960
@@ -529,36 +357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33184a4be07dec3458a5b2a297ea328c
-      internalID: 1832298553
+      spriteID: 0927100e28a1d6940ba67b1813bc0a53
+      internalID: 250391907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: almost everything_19
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aca7661be670c0e46832636dc3d472c9
-      internalID: 276392526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: almost everything_20
+      name: backegroundies_12
       rect:
         serializedVersion: 2
         x: 0
@@ -573,8 +379,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2451d72223942624bbf39d44d5d7ea09
-      internalID: -291443318
+      spriteID: aeefb9963479bb7428274a858989dd0e
+      internalID: 264203899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backegroundies_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd735663b145743ad780e4dd0eb9b4
+      internalID: -895314375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backegroundies_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029b5865fa7a5794cae9fa7a5147a2e6
+      internalID: 310804662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backegroundies_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33c88f978f25af488a1d0961ff28b11
+      internalID: 304478096
       vertices: []
       indices: 
       edges: []
@@ -583,7 +455,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 732581a0c4b10aa4f819ca1a092fb696
+    spriteID: 48859905235c1c443a1f58d81c40265a
     internalID: 0
     vertices: []
     indices: 
@@ -593,29 +465,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":320.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      almost everything_0: -4809486443857263357
-      almost everything_1: -6760431488692556071
-      almost everything_10: 67107203
-      almost everything_11: -859642621
-      almost everything_12: -1554325885
-      almost everything_13: -935551252
-      almost everything_14: 1140965742
-      almost everything_15: -1692418204
-      almost everything_16: -1764815331
-      almost everything_17: -1260575638
-      almost everything_18: 1832298553
-      almost everything_19: 276392526
-      almost everything_2: -6971315958954350309
-      almost everything_20: -291443318
-      almost everything_3: -1577912393311037452
-      almost everything_4: -2416731324846481075
-      almost everything_5: -1728649704896896600
-      almost everything_6: -8297435197884075337
-      almost everything_7: 242563260
-      almost everything_8: -273254640
-      almost everything_9: -461707932
+      backegroundies_0: 5366325163180332684
+      backegroundies_1: -121135973
+      backegroundies_10: 96993206
+      backegroundies_11: 250391907
+      backegroundies_12: 264203899
+      backegroundies_13: -895314375
+      backegroundies_14: 310804662
+      backegroundies_15: 304478096
+      backegroundies_2: -1488950957
+      backegroundies_3: -1986173732
+      backegroundies_4: 1442721381
+      backegroundies_5: -1652943729
+      backegroundies_6: 401373115
+      backegroundies_7: -276260814
+      backegroundies_8: 771964762
+      backegroundies_9: -184389561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
