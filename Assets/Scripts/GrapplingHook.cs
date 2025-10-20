@@ -1,37 +1,62 @@
-using UnityEngine;
-using UnityEngine.InputSystem;
+﻿using UnityEngine;
+using System.Collections;
 
 public class GrapplingHook : MonoBehaviour
 {
-    [SerializeField] private LineRenderer line;
-    [SerializeField] private Rigidbody playerRb;
-    [SerializeField] private float pullSpeed = 20f;
+    public LineRenderer line;        // Draws the rope
+    public float hookSpeed = 15f;
+    public float pullSpeed = 10f;
+    public LayerMask grappleLayer;
 
-    private Vector3 targetPoint;
-    private bool isFired;
+    private Vector2 hookTarget;
+    private bool isPulling;
+    private Transform player;
+    private Rigidbody2D playerRb;
 
-    public void Fire(Vector3 target)
+    public bool IsActive => isPulling;
+
+    void Start()
     {
-        targetPoint = target;
-        isFired = true;
-        line.enabled = true;
-        line.SetPosition(0, transform.position);
-        line.SetPosition(1, targetPoint);
+        player = transform.parent;
+        playerRb = player.GetComponent<Rigidbody2D>();
+        line.positionCount = 0;
     }
 
-    private void FixedUpdate()
+    public void Shoot(Vector2 direction)
     {
-        if (isFired)
-        {
-            Vector3 dir = (targetPoint - playerRb.position).normalized;
-            playerRb.AddForce(dir * pullSpeed, ForceMode.Acceleration);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 20f, grappleLayer);
 
-            // optional: stop when close enough
-            if (Vector3.Distance(playerRb.position, targetPoint) < 2f)
-            {
-                isFired = false;
-                line.enabled = false;
-            }
+        if (hit.collider)
+        {
+            hookTarget = hit.point;
+            StartCoroutine(PullPlayerToTarget());
         }
+        else
+        {
+            Debug.Log("No grapple target hit!");
+        }
+    }
+
+    private IEnumerator PullPlayerToTarget()
+    {
+        isPulling = true;
+        line.positionCount = 2;
+        line.SetPosition(1, hookTarget);
+
+        playerRb.gravityScale = 0f;
+
+        while (Vector2.Distance(player.position, hookTarget) > 1f)
+        {
+            Vector2 dir = (hookTarget - (Vector2)player.position).normalized;
+            playerRb.linearVelocity = dir * pullSpeed;
+
+            line.SetPosition(0, transform.position);
+            yield return null;
+        }
+
+        playerRb.linearVelocity = Vector2.zero;
+        playerRb.gravityScale = 3f;
+        line.positionCount = 0;
+        isPulling = false;
     }
 }
