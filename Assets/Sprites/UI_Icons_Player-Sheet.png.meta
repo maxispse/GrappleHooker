@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 9efb4b335c6b8bb438e4a5dc0b48c4e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -912128398717854189
+    second: UI_Icons_Player-Sheet_0
+  - first:
+      213: -663546511012537955
+    second: UI_Icons_Player-Sheet_1
+  - first:
+      213: 2502740781675963952
+    second: UI_Icons_Player-Sheet_2
+  - first:
+      213: 5796717940886064323
+    second: UI_Icons_Player-Sheet_3
+  - first:
+      213: 721415543874263695
+    second: UI_Icons_Player-Sheet_4
+  - first:
+      213: 7866420532610010317
+    second: UI_Icons_Player-Sheet_5
+  - first:
+      213: -8140631802313506380
+    second: UI_Icons_Player-Sheet_6
+  - first:
+      213: 987210305083623871
+    second: UI_Icons_Player-Sheet_7
+  - first:
+      213: -5664896006453540806
+    second: UI_Icons_Player-Sheet_8
+  - first:
+      213: 3823096855884966254
+    second: UI_Icons_Player-Sheet_9
+  - first:
+      213: -3745396092144111530
+    second: UI_Icons_Player-Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 325
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e50e4dd087753f0800000000000000
+      internalID: -912128398717854189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 327
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99d52fb6fb9ac6f0800000000000000
+      internalID: -663546511012537955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 327
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036eda81b758bb220800000000000000
+      internalID: 2502740781675963952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 338
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccc5a14144127050800000000000000
+      internalID: 5796717940886064323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 347
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a121c6d9bf20a00800000000000000
+      internalID: 721415543874263695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 353
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc0f0cdbc32b2d60800000000000000
+      internalID: 7866420532610010317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 336
+        width: 1480
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b10bd7b18aa60f80800000000000000
+      internalID: -8140631802313506380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 32
+        width: 48
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb94d11ca8643bd00800000000000000
+      internalID: 987210305083623871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 32
+        width: 48
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38cec5981f3261b0800000000000000
+      internalID: -5664896006453540806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 36
+        width: 285
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69afe4b55e5e0530800000000000000
+      internalID: 3823096855884966254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Icons_Player-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 64
+        width: 123
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6503d90291ea50cc0800000000000000
+      internalID: -3745396092144111530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI_Icons_Player-Sheet_0: -912128398717854189
+      UI_Icons_Player-Sheet_1: -663546511012537955
+      UI_Icons_Player-Sheet_10: -3745396092144111530
+      UI_Icons_Player-Sheet_2: 2502740781675963952
+      UI_Icons_Player-Sheet_3: 5796717940886064323
+      UI_Icons_Player-Sheet_4: 721415543874263695
+      UI_Icons_Player-Sheet_5: 7866420532610010317
+      UI_Icons_Player-Sheet_6: -8140631802313506380
+      UI_Icons_Player-Sheet_7: 987210305083623871
+      UI_Icons_Player-Sheet_8: -5664896006453540806
+      UI_Icons_Player-Sheet_9: 3823096855884966254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
