@@ -1,19 +1,19 @@
 using UnityEngine;
-using UnityEngine.Playables;
+
 public class PlayerController : MonoBehaviour
 {
-    public enum PlayerState
-    {
-        Normal,
-        Aiming,
-        Shooting
-    }
+    public enum PlayerState { Normal, Aiming, Shooting }
+
+    [Header("Movement Settings")]
     public float moveSpeed = 5f;
     public float wallSlideSpeed = 2f;
     public float wallJumpForce = 8f;
 
+    [Header("References")]
     public Transform aimPivot;
-    public GrapplingHook grapplingHook;
+    public GrappleHook grapplingHook;
+    public Joystick movementJoystick;
+    public Joystick aimJoystick;
 
     private Rigidbody2D rb;
     private PlayerState state = PlayerState.Normal;
@@ -21,83 +21,86 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveInput;
     private Vector2 aimDirection;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch (state)
         {
             case PlayerState.Normal:
                 HandleMovement();
-                if (Input.GetMouseButtonDown(1)) // Right click to aim
+
+                // Enter aiming if right joystick is moved
+                if (aimJoystick.Horizontal != 0 || aimJoystick.Vertical != 0)
                 {
                     state = PlayerState.Aiming;
-                    rb.linearVelocity = Vector2.zero;
                 }
                 break;
 
             case PlayerState.Aiming:
                 Aim();
-                if (Input.GetMouseButtonDown(0)) // Left click to shoot
+
+                // Shoot grappling hook when aim joystick is released
+                if (aimJoystick.Horizontal == 0 && aimJoystick.Vertical == 0 && aimDirection.sqrMagnitude > 0.1f)
                 {
                     state = PlayerState.Shooting;
                     grapplingHook.Shoot(aimDirection);
                 }
-                if (Input.GetMouseButtonDown(1)) // Cancel aim
+
+                // Cancel aim if you want (optional)
+                if (movementJoystick.Horizontal != 0 || movementJoystick.Vertical != 0)
                 {
-                    state = PlayerState.Normal;
+                    // Optional: allow canceling aim when moving
+                    // state = PlayerState.Normal;
                 }
                 break;
 
             case PlayerState.Shooting:
+                // Return to normal when grappling hook finishes
                 if (!grapplingHook.IsActive)
                 {
                     state = PlayerState.Normal;
                 }
                 break;
         }
+
         WallCheck();
     }
+
     private void HandleMovement()
     {
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
+        moveInput = new Vector2(movementJoystick.Horizontal, 0);
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
     }
 
     private void Aim()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        aimDirection = (mousePos - aimPivot.position).normalized;
-        aimPivot.right = aimDirection;
+        aimDirection = new Vector2(aimJoystick.Horizontal, aimJoystick.Vertical);
+
+        if (aimDirection.sqrMagnitude > 0.1f)
+        {
+            aimDirection.Normalize();
+            aimPivot.right = aimDirection;
+        }
     }
 
-    private void ShootGrapple()
-    {
-        state = PlayerState.Shooting;
-        Debug.Log("Shoot!");
-
-        // Calculate the direction from the aimPivot toward the mouse
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = (mousePos - aimPivot.position).normalized;
-
-        grapplingHook.Shoot(direction);
-    }
     private void WallCheck()
     {
+        // Raycast to detect walls on the side
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(transform.localScale.x), 0.6f, LayerMask.GetMask("Wall"));
         isTouchingWall = hit.collider != null;
 
-        // Wall slide
+        // Wall slide logic
         if (isTouchingWall && rb.linearVelocity.y < 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, -wallSlideSpeed);
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            // Wall jump when pressing joystick up
+            if (movementJoystick.Vertical > 0.5f)
             {
                 WallJump();
             }
