@@ -7,6 +7,7 @@ public class MovementScript : MonoBehaviour
     public Joystick movementJoystick;  // Drag your joystick here
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     [Header("Camera Control")]
     public Transform cameraTransform;  // Drag your main camera here
@@ -19,6 +20,7 @@ public class MovementScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>(); // Reference to Animator component
 
         if (cameraTransform != null)
             defaultCameraY = cameraTransform.position.y;
@@ -39,19 +41,21 @@ public class MovementScript : MonoBehaviour
         else if (moveX < -0.1f)
             spriteRenderer.flipX = true;
 
+        // --- Animation control ---
+        bool isWalking = Mathf.Abs(moveX) > 0.1f;
+        animator.SetBool("isWalking", isWalking);
+
         // --- Camera vertical movement ---
         if (cameraTransform != null)
         {
-            float moveY = movementJoystick.Vertical; // Joystick up/down input
+            float moveY = movementJoystick.Vertical;
 
-            // Calculate new camera Y (with clamp)
             float targetY = Mathf.Clamp(
                 defaultCameraY + moveY * cameraYClamp,
                 defaultCameraY - cameraYClamp,
                 defaultCameraY + cameraYClamp
             );
 
-            // Smoothly move camera up/down
             Vector3 camPos = cameraTransform.position;
             camPos.y = Mathf.Lerp(camPos.y, targetY, Time.deltaTime * cameraMoveSpeed);
             cameraTransform.position = camPos;
