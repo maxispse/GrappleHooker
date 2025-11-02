@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuUI : MonoBehaviour
 {
@@ -17,6 +18,16 @@ public class PauseMenuUI : MonoBehaviour
         Resume();
     }
 
+    public void OnRestartButton()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+    }
+
+    public void OnMainMenuButton() 
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
     void Pause()
     {
         pauseMenuUI.SetActive(true);

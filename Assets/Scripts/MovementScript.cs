@@ -11,19 +11,14 @@ public class MovementScript : MonoBehaviour
 
     [Header("Camera Control")]
     public Transform cameraTransform;  // Drag your main camera here
-    public float cameraMoveSpeed = 2f;
-    public float cameraYClamp = 3f;    // How far camera can move up/down from player
-
-    private float defaultCameraY;
+    public float cameraFollowSpeed = 3f; // how fast camera follows
+    public Vector3 cameraOffset = new Vector3(0f, 0f, -10f); // default camera offset
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>(); // Reference to Animator component
-
-        if (cameraTransform != null)
-            defaultCameraY = cameraTransform.position.y;
     }
 
     private void FixedUpdate()
@@ -48,17 +43,12 @@ public class MovementScript : MonoBehaviour
         // --- Camera vertical movement ---
         if (cameraTransform != null)
         {
-            float moveY = movementJoystick.Vertical;
-
-            float targetY = Mathf.Clamp(
-                defaultCameraY + moveY * cameraYClamp,
-                defaultCameraY - cameraYClamp,
-                defaultCameraY + cameraYClamp
+            Vector3 targetPosition = transform.position + cameraOffset;
+            cameraTransform.position = Vector3.Lerp(
+                cameraTransform.position,
+                targetPosition,
+                Time.deltaTime * cameraFollowSpeed
             );
-
-            Vector3 camPos = cameraTransform.position;
-            camPos.y = Mathf.Lerp(camPos.y, targetY, Time.deltaTime * cameraMoveSpeed);
-            cameraTransform.position = camPos;
         }
     }
 }

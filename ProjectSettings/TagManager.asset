@@ -3,15 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Spike
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Grapple
+  - Grappleable
   - Water
   - UI
-  - GrappleTarget
+  - 
   - 
   - 
   - 
