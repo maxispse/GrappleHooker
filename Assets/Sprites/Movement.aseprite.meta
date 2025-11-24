@@ -129,7 +129,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Movement
     originalName: 
-    pivot: {x: 0.45507583, y: -0.03325942}
+    pivot: {x: 0.45507583, y: -0.03243243}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -138,7 +138,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 857
-      height: 902
+      height: 925
     spriteID: ece97e58cdadfce4b845cfb18cca9c95
     spriteBone: []
     spriteOutline: []
@@ -170,7 +170,7 @@ ScriptedImporter:
         x: 110
         y: 30
         width: 857
-        height: 902
+        height: 925
       spriteId: ece97e58cdadfce4b845cfb18cca9c95
     linkedCells: []
     tileCells: []
