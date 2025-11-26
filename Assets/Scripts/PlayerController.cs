@@ -112,4 +112,11 @@ public class PlayerController : MonoBehaviour
         Vector2 jumpDir = new Vector2(-Mathf.Sign(transform.localScale.x), 1).normalized;
         rb.linearVelocity = jumpDir * wallJumpForce;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Coin"))
+        {
+            Destroy(collision.gameObject); // Removes the coin
+        }
+    }
 }
