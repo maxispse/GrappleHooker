@@ -1,21 +1,22 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovementScript : MonoBehaviour
 {
     [Header("Player Movement")]
     public float moveSpeed = 5f;
     public Joystick movementJoystick;  // Drag your joystick here
-    public Joystick dashJoystick;
+    public Button dashButton;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
     [Header("Dash Settings")]
     private bool canDash = true;
-    private bool isDashing;
+    private bool isDashing = false;
     private float dashPower = 24f;
-    private float dashTime = 0.5f;
+    private float dashTime = 2f;
     private float dashCooldown = 1f;
 
     [Header("Camera Control")]
@@ -32,6 +33,17 @@ public class MovementScript : MonoBehaviour
         animator = GetComponent<Animator>(); // Reference to Animator component
     }
 
+    private void Update()
+    {
+        if (isDashing)
+        {
+            return;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
+    }
     private void FixedUpdate()
     {
         if (Time.timeScale == 0f)
@@ -47,9 +59,6 @@ public class MovementScript : MonoBehaviour
         else if (moveX < -0.1f)
             spriteRenderer.flipX = true;
 
-        // Dash function
-
-        if (jumpJoystick)
 
         // --- Animation control ---
         bool isWalking = Mathf.Abs(moveX) > 0.1f;
