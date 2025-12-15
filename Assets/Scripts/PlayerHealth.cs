@@ -49,7 +49,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Spike") || other.CompareTag("Enemy"))
+        if (other.CompareTag("Spike"))
         {
             TakeDamage(1);
         }

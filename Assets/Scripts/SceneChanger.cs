@@ -1,12 +1,15 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    /*private void OnTriggerEnter(Collider other)
+    [SerializeField] private string SceneName;
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("NextScene");
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(SceneName);
         }
-    }*/
+    }
 }
