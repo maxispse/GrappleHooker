@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 0975ef1b5cec822459cfbfb1af8b1ad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5810060303794046178
+    second: yet another yawn spritesheet_0
+  - first:
+      213: -9194366753868414658
+    second: yet another yawn spritesheet_1
+  - first:
+      213: -4396951142005435732
+    second: yet another yawn spritesheet_2
+  - first:
+      213: 3135943737808259764
+    second: yet another yawn spritesheet_3
+  - first:
+      213: -4608323394058418935
+    second: yet another yawn spritesheet_4
+  - first:
+      213: -9137816593519835538
+    second: yet another yawn spritesheet_5
+  - first:
+      213: -8040983369094287154
+    second: yet another yawn spritesheet_6
+  - first:
+      213: 9102920331782839437
+    second: yet another yawn spritesheet_7
+  - first:
+      213: 4796540160057841486
+    second: yet another yawn spritesheet_8
+  - first:
+      213: 5718107069947210337
+    second: yet another yawn spritesheet_9
+  - first:
+      213: 5734721195139381794
+    second: yet another yawn spritesheet_10
+  - first:
+      213: 6069032259659362642
+    second: yet another yawn spritesheet_11
+  - first:
+      213: 3158405992304977933
+    second: yet another yawn spritesheet_12
+  - first:
+      213: -5474213040951613545
+    second: yet another yawn spritesheet_13
+  - first:
+      213: -2733940293292265810
+    second: yet another yawn spritesheet_14
+  - first:
+      213: 3422959112684310335
+    second: yet another yawn spritesheet_15
+  - first:
+      213: 8936270776042600358
+    second: yet another yawn spritesheet_16
+  - first:
+      213: -1571977076058259148
+    second: yet another yawn spritesheet_17
+  - first:
+      213: 8336859607407279348
+    second: yet another yawn spritesheet_18
+  - first:
+      213: 9164973258141949513
+    second: yet another yawn spritesheet_19
+  - first:
+      213: 1175268105692255182
+    second: yet another yawn spritesheet_20
+  - first:
+      213: 4184157438944136322
+    second: yet another yawn spritesheet_21
+  - first:
+      213: -1868436919855650290
+    second: yet another yawn spritesheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1318
+        width: 330
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e40e33301b71a050800000000000000
+      internalID: 5810060303794046178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1320
+        width: 273
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e310305b62c076080800000000000000
+      internalID: -9194366753868414658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1330
+        width: 404
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2940e7b34eaf2c0800000000000000
+      internalID: -4396951142005435732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1873
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba0cafe63c158b20800000000000000
+      internalID: 3135943737808259764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1324
+        width: 193
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905860ff942fb00c0800000000000000
+      internalID: -4608323394058418935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1709
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e668490f834ff2180800000000000000
+      internalID: -9137816593519835538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1709
+        width: 326
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0bf409a30b86090800000000000000
+      internalID: -8040983369094287154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1309
+        width: 240
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cd89affc1145e70800000000000000
+      internalID: 9102920331782839437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1445
+        width: 182
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e479427ccdbb09240800000000000000
+      internalID: 4796540160057841486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1251
+        width: 197
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a6ad3951cca5f40800000000000000
+      internalID: 5718107069947210337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1235
+        width: 182
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22abf2a0b82d59f40800000000000000
+      internalID: 5734721195139381794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 745
+        width: 439
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251f16f5fa8893450800000000000000
+      internalID: 6069032259659362642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 735
+        width: 384
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08adcb1489e4db20800000000000000
+      internalID: 3158405992304977933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 684
+        width: 1497
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797a44d2e30b704b0800000000000000
+      internalID: -5474213040951613545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 405
+        width: 96
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeef2dc9c71f0ad0800000000000000
+      internalID: -2733940293292265810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 406
+        width: 96
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f0c386d2bc08f20800000000000000
+      internalID: 3422959112684310335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 414
+        width: 96
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a739b6ace2040c70800000000000000
+      internalID: 8936270776042600358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 419
+        width: 96
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4318d729d273f2ae0800000000000000
+      internalID: -1571977076058259148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 420
+        width: 100
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc30d174a972b370800000000000000
+      internalID: 8336859607407279348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 425
+        width: 106
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e5183ce96803f70800000000000000
+      internalID: 9164973258141949513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 367
+        width: 752
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec312a38d146f4010800000000000000
+      internalID: 1175268105692255182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 383
+        width: 415
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cc298a50d111a30800000000000000
+      internalID: 4184157438944136322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yet another yawn spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 96
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a67c2558af116e0800000000000000
+      internalID: -1868436919855650290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yet another yawn spritesheet_0: 5810060303794046178
+      yet another yawn spritesheet_1: -9194366753868414658
+      yet another yawn spritesheet_10: 5734721195139381794
+      yet another yawn spritesheet_11: 6069032259659362642
+      yet another yawn spritesheet_12: 3158405992304977933
+      yet another yawn spritesheet_13: -5474213040951613545
+      yet another yawn spritesheet_14: -2733940293292265810
+      yet another yawn spritesheet_15: 3422959112684310335
+      yet another yawn spritesheet_16: 8936270776042600358
+      yet another yawn spritesheet_17: -1571977076058259148
+      yet another yawn spritesheet_18: 8336859607407279348
+      yet another yawn spritesheet_19: 9164973258141949513
+      yet another yawn spritesheet_2: -4396951142005435732
+      yet another yawn spritesheet_20: 1175268105692255182
+      yet another yawn spritesheet_21: 4184157438944136322
+      yet another yawn spritesheet_22: -1868436919855650290
+      yet another yawn spritesheet_3: 3135943737808259764
+      yet another yawn spritesheet_4: -4608323394058418935
+      yet another yawn spritesheet_5: -9137816593519835538
+      yet another yawn spritesheet_6: -8040983369094287154
+      yet another yawn spritesheet_7: 9102920331782839437
+      yet another yawn spritesheet_8: 4796540160057841486
+      yet another yawn spritesheet_9: 5718107069947210337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

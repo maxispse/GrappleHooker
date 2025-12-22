@@ -20,6 +20,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 3f36386565aa7c1408e4af0570473c63, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 3f36386565aa7c1408e4af0570473c63, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1183258139
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 3f36386565aa7c1408e4af0570473c63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
