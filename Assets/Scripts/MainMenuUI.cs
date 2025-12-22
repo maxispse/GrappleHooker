@@ -7,6 +7,7 @@ public class MainMenuUI : MonoBehaviour
     public void OnPlayButton()
     {
         SceneManager.LoadScene(gameSceneName);
+        Time.timeScale = 1f;   // resumes game time
     }
 
     public void OnQuitButton()

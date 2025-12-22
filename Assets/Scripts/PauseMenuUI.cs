@@ -22,6 +22,7 @@ public class PauseMenuUI : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
+        Time.timeScale = 1f;   // resumes game time
     }
 
     public void OnMainMenuButton() 
