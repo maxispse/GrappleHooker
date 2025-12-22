@@ -1,22 +1,37 @@
 fileFormatVersion: 2
-guid: 3f700d8b0a2cd9145bf4d21fe2cc2d15
+guid: b7d49cb5023e1584586ee02f8e6d66cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4758337921717286802
-    second: kidnamedfinger_0
+      213: -2908606307358740946
+    second: LandmarkStuff_0
   - first:
-      213: -6182798248947004473
-    second: kidnamedfinger_1
+      213: 5970263014866631466
+    second: LandmarkStuff_1
   - first:
-      213: 6643479859481764038
-    second: kidnamedfinger_2
+      213: 2723402834580066605
+    second: LandmarkStuff_2
   - first:
-      213: -5356024104807252058
-    second: kidnamedfinger_3
+      213: -1127649990401571466
+    second: LandmarkStuff_3
   - first:
-      213: 191657964680098071
-    second: kidnamedfinger_4
+      213: 5915089563336075423
+    second: LandmarkStuff_4
+  - first:
+      213: 7472804554388898319
+    second: LandmarkStuff_5
+  - first:
+      213: 684709966103088269
+    second: LandmarkStuff_6
+  - first:
+      213: -5349017043028641545
+    second: LandmarkStuff_7
+  - first:
+      213: -8095932843022789240
+    second: LandmarkStuff_8
+  - first:
+      213: -4757534048858599802
+    second: LandmarkStuff_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kidnamedfinger_0
+      name: LandmarkStuff_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1126
-        width: 299
-        height: 312
+        x: 116
+        y: 1476
+        width: 1768
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 297ba390123090240800000000000000
-      internalID: 4758337921717286802
+      spriteID: e2eeb6259fd82a7d0800000000000000
+      internalID: -2908606307358740946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kidnamedfinger_1
+      name: LandmarkStuff_1
       rect:
         serializedVersion: 2
-        x: 632
-        y: 1147
-        width: 287
-        height: 297
+        x: 45
+        y: 1125
+        width: 1049
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cb4b9d10c9423aa0800000000000000
-      internalID: -6182798248947004473
+      spriteID: a2b37c88492aad250800000000000000
+      internalID: 5970263014866631466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kidnamedfinger_2
+      name: LandmarkStuff_2
       rect:
         serializedVersion: 2
-        x: 204
-        y: 763
-        width: 260
-        height: 303
+        x: 1908
+        y: 1151
+        width: 1035
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c06fd8cbb1623c50800000000000000
-      internalID: 6643479859481764038
+      spriteID: d21df67e2787bc520800000000000000
+      internalID: 2723402834580066605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kidnamedfinger_3
+      name: LandmarkStuff_3
       rect:
         serializedVersion: 2
-        x: 678
-        y: 771
-        width: 196
-        height: 345
+        x: 103
+        y: 910
+        width: 177
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6afb88044749ba5b0800000000000000
-      internalID: -5356024104807252058
+      spriteID: 675442bee48c950f0800000000000000
+      internalID: -1127649990401571466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kidnamedfinger_4
+      name: LandmarkStuff_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 383
-        width: 849
-        height: 351
+        x: 104
+        y: 616
+        width: 1768
+        height: 337
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +243,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 711b12747e7e8a200800000000000000
-      internalID: 191657964680098071
+      spriteID: f98644d4e9e961250800000000000000
+      internalID: 5915089563336075423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LandmarkStuff_5
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 910
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02854c462cb4b760800000000000000
+      internalID: 7472804554388898319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LandmarkStuff_6
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 642
+        width: 1286
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c8ebf1614908900800000000000000
+      internalID: 684709966103088269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LandmarkStuff_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 360
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f874c4f65974c5b0800000000000000
+      internalID: -5349017043028641545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LandmarkStuff_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 66
+        width: 1768
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885553e29f775af80800000000000000
+      internalID: -8095932843022789240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LandmarkStuff_9
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 360
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e05f23df7d9fdb0800000000000000
+      internalID: -4757534048858599802
       vertices: []
       indices: 
       edges: []
@@ -248,11 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kidnamedfinger_0: 4758337921717286802
-      kidnamedfinger_1: -6182798248947004473
-      kidnamedfinger_2: 6643479859481764038
-      kidnamedfinger_3: -5356024104807252058
-      kidnamedfinger_4: 191657964680098071
+      LandmarkStuff_0: -2908606307358740946
+      LandmarkStuff_1: 5970263014866631466
+      LandmarkStuff_2: 2723402834580066605
+      LandmarkStuff_3: -1127649990401571466
+      LandmarkStuff_4: 5915089563336075423
+      LandmarkStuff_5: 7472804554388898319
+      LandmarkStuff_6: 684709966103088269
+      LandmarkStuff_7: -5349017043028641545
+      LandmarkStuff_8: -8095932843022789240
+      LandmarkStuff_9: -4757534048858599802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 3f700d8b0a2cd9145bf4d21fe2cc2d15
+guid: ace43d69c39ed2146ba97f670edc0f58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4758337921717286802
-    second: kidnamedfinger_0
-  - first:
-      213: -6182798248947004473
-    second: kidnamedfinger_1
-  - first:
-      213: 6643479859481764038
-    second: kidnamedfinger_2
-  - first:
-      213: -5356024104807252058
-    second: kidnamedfinger_3
-  - first:
-      213: 191657964680098071
-    second: kidnamedfinger_4
+      213: -204693205837123536
+    second: Gummy_Bear_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kidnamedfinger_0
+      name: Gummy_Bear_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1126
-        width: 299
-        height: 312
+        x: 27
+        y: 17
+        width: 721
+        height: 991
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,96 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 297ba390123090240800000000000000
-      internalID: 4758337921717286802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kidnamedfinger_1
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 1147
-        width: 287
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7cb4b9d10c9423aa0800000000000000
-      internalID: -6182798248947004473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kidnamedfinger_2
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 763
-        width: 260
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c06fd8cbb1623c50800000000000000
-      internalID: 6643479859481764038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kidnamedfinger_3
-      rect:
-        serializedVersion: 2
-        x: 678
-        y: 771
-        width: 196
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6afb88044749ba5b0800000000000000
-      internalID: -5356024104807252058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kidnamedfinger_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 383
-        width: 849
-        height: 351
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 711b12747e7e8a200800000000000000
-      internalID: 191657964680098071
+      spriteID: 03074222d98c82df0800000000000000
+      internalID: -204693205837123536
       vertices: []
       indices: 
       edges: []
@@ -248,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kidnamedfinger_0: 4758337921717286802
-      kidnamedfinger_1: -6182798248947004473
-      kidnamedfinger_2: 6643479859481764038
-      kidnamedfinger_3: -5356024104807252058
-      kidnamedfinger_4: 191657964680098071
+      Gummy_Bear_0: -204693205837123536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

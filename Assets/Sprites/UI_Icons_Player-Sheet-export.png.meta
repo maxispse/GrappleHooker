@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 9efb4b335c6b8bb438e4a5dc0b48c4e7
+guid: ef91f6cf57cedfd4d9b1f0c21002278e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -912128398717854189
-    second: UI_Icons_Player-Sheet_0
+      213: -6658136251513214185
+    second: UI_Icons_Player-Sheet-export_0
   - first:
-      213: -663546511012537955
-    second: UI_Icons_Player-Sheet_1
+      213: 557108754770336861
+    second: UI_Icons_Player-Sheet-export_1
   - first:
-      213: 2502740781675963952
-    second: UI_Icons_Player-Sheet_2
+      213: 4107043522237604690
+    second: UI_Icons_Player-Sheet-export_2
   - first:
-      213: 5796717940886064323
-    second: UI_Icons_Player-Sheet_3
+      213: -5792055332470919859
+    second: UI_Icons_Player-Sheet-export_3
   - first:
-      213: 721415543874263695
-    second: UI_Icons_Player-Sheet_4
+      213: 6169604526175129129
+    second: UI_Icons_Player-Sheet-export_4
   - first:
-      213: 7866420532610010317
-    second: UI_Icons_Player-Sheet_5
+      213: -9217711540559781688
+    second: UI_Icons_Player-Sheet-export_5
   - first:
-      213: -8140631802313506380
-    second: UI_Icons_Player-Sheet_6
+      213: -1514136062624651122
+    second: UI_Icons_Player-Sheet-export_6
   - first:
-      213: 987210305083623871
-    second: UI_Icons_Player-Sheet_7
+      213: -7090053747475347002
+    second: UI_Icons_Player-Sheet-export_7
   - first:
-      213: -5664896006453540806
-    second: UI_Icons_Player-Sheet_8
+      213: 267858605684151884
+    second: UI_Icons_Player-Sheet-export_8
   - first:
-      213: 3823096855884966254
-    second: UI_Icons_Player-Sheet_9
+      213: -5215687269838973256
+    second: UI_Icons_Player-Sheet-export_9
   - first:
-      213: -3745396092144111530
-    second: UI_Icons_Player-Sheet_10
+      213: -7831858634060793710
+    second: UI_Icons_Player-Sheet-export_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,7 +143,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_0
+      name: UI_Icons_Player-Sheet-export_0
       rect:
         serializedVersion: 2
         x: 237
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31e50e4dd087753f0800000000000000
-      internalID: -912128398717854189
+      spriteID: 71b67660b5c8993a0800000000000000
+      internalID: -6658136251513214185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_1
+      name: UI_Icons_Player-Sheet-export_1
       rect:
         serializedVersion: 2
         x: 660
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d99d52fb6fb9ac6f0800000000000000
-      internalID: -663546511012537955
+      spriteID: d5c9855f57f3bb700800000000000000
+      internalID: 557108754770336861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_2
+      name: UI_Icons_Player-Sheet-export_2
       rect:
         serializedVersion: 2
         x: 1105
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 036eda81b758bb220800000000000000
-      internalID: 2502740781675963952
+      spriteID: 253aa0cc2562ff830800000000000000
+      internalID: 4107043522237604690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_3
+      name: UI_Icons_Player-Sheet-export_3
       rect:
         serializedVersion: 2
         x: 1537
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ccc5a14144127050800000000000000
-      internalID: 5796717940886064323
+      spriteID: d4de9acdc5c7e9fa0800000000000000
+      internalID: -5792055332470919859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_4
+      name: UI_Icons_Player-Sheet-export_4
       rect:
         serializedVersion: 2
         x: 2077
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8a121c6d9bf20a00800000000000000
-      internalID: 721415543874263695
+      spriteID: 92e8f4be0a6de9550800000000000000
+      internalID: 6169604526175129129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_5
+      name: UI_Icons_Player-Sheet-export_5
       rect:
         serializedVersion: 2
         x: 2491
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcc0f0cdbc32b2d60800000000000000
-      internalID: 7866420532610010317
+      spriteID: 8c06aeef03c141080800000000000000
+      internalID: -9217711540559781688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_6
+      name: UI_Icons_Player-Sheet-export_6
       rect:
         serializedVersion: 2
         x: 2988
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b10bd7b18aa60f80800000000000000
-      internalID: -8140631802313506380
+      spriteID: e8826a5f545bcfae0800000000000000
+      internalID: -1514136062624651122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_7
+      name: UI_Icons_Player-Sheet-export_7
       rect:
         serializedVersion: 2
         x: 350
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb94d11ca8643bd00800000000000000
-      internalID: 987210305083623871
+      spriteID: 6c90e4f6ea11b9d90800000000000000
+      internalID: -7090053747475347002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_8
+      name: UI_Icons_Player-Sheet-export_8
       rect:
         serializedVersion: 2
         x: 446
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a38cec5981f3261b0800000000000000
-      internalID: -5664896006453540806
+      spriteID: c46d5d19bff97b300800000000000000
+      internalID: 267858605684151884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_9
+      name: UI_Icons_Player-Sheet-export_9
       rect:
         serializedVersion: 2
         x: 611
@@ -356,14 +356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e69afe4b55e5e0530800000000000000
-      internalID: 3823096855884966254
+      spriteID: 8b698bddf082e97b0800000000000000
+      internalID: -5215687269838973256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Icons_Player-Sheet_10
+      name: UI_Icons_Player-Sheet-export_10
       rect:
         serializedVersion: 2
         x: 1181
@@ -378,8 +378,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6503d90291ea50cc0800000000000000
-      internalID: -3745396092144111530
+      spriteID: 298fab93116af4390800000000000000
+      internalID: -7831858634060793710
       vertices: []
       indices: 
       edges: []
@@ -398,17 +398,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Icons_Player-Sheet_0: -912128398717854189
-      UI_Icons_Player-Sheet_1: -663546511012537955
-      UI_Icons_Player-Sheet_10: -3745396092144111530
-      UI_Icons_Player-Sheet_2: 2502740781675963952
-      UI_Icons_Player-Sheet_3: 5796717940886064323
-      UI_Icons_Player-Sheet_4: 721415543874263695
-      UI_Icons_Player-Sheet_5: 7866420532610010317
-      UI_Icons_Player-Sheet_6: -8140631802313506380
-      UI_Icons_Player-Sheet_7: 987210305083623871
-      UI_Icons_Player-Sheet_8: -5664896006453540806
-      UI_Icons_Player-Sheet_9: 3823096855884966254
+      UI_Icons_Player-Sheet-export_0: -6658136251513214185
+      UI_Icons_Player-Sheet-export_1: 557108754770336861
+      UI_Icons_Player-Sheet-export_10: -7831858634060793710
+      UI_Icons_Player-Sheet-export_2: 4107043522237604690
+      UI_Icons_Player-Sheet-export_3: -5792055332470919859
+      UI_Icons_Player-Sheet-export_4: 6169604526175129129
+      UI_Icons_Player-Sheet-export_5: -9217711540559781688
+      UI_Icons_Player-Sheet-export_6: -1514136062624651122
+      UI_Icons_Player-Sheet-export_7: -7090053747475347002
+      UI_Icons_Player-Sheet-export_8: 267858605684151884
+      UI_Icons_Player-Sheet-export_9: -5215687269838973256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

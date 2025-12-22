@@ -57,6 +57,6 @@ public class PlayerHealth : MonoBehaviour
     void UpdateLivesUI()
     {
         if (livesText != null)
-            livesText.text = " " + currentLives;
+            livesText.text = "" + currentLives;
     }
 }
