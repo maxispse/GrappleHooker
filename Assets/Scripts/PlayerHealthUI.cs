@@ -34,6 +34,9 @@ public class PlayerHealthUI : MonoBehaviour
 
         switch (playerHealth.currentLives)
         {
+            case 4:
+                faceImage.sprite = neutralFace;
+                break;
             case 3:
                 faceImage.sprite = neutralFace;
                 break;

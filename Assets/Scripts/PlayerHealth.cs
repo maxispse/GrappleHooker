@@ -5,22 +5,49 @@ public class PlayerHealth : MonoBehaviour
 {
     [Header("Health Settings")]
     public int maxLives = 3;
-    public int currentLives;
+    public int currentLives = 3;
+
+    [Header("Shield Settings")]
+    public GameObject ShieldSprite;
+    private bool hasShield = false;
+
+    [Header("UI Elements")]
     public TMP_Text livesText;
     private Animator animator; // optional, for hurt animation
 
-    [Header("UI Settings")]
     public PlayerHealthUI playerHealthUI;
 
     void Start()
     {
         currentLives = maxLives;
+        UpdateLivesUI();
         animator = GetComponent<Animator>();
+    }
+
+    public void OnShieldButton()
+    {
+        if (!hasShield)
+        {
+            ActivateShield();
+        }
     }
 
     // Call this to apply damage
     public void TakeDamage(int damage = 1)
     {
+        if (hasShield)
+        {
+            hasShield = false;
+            maxLives -= damage;
+            currentLives -= damage;
+            UpdateLivesUI();
+            Debug.Log("Shield absorbed the hit!");
+            OnShieldBreak();
+            return;
+        }
+
+        if (!hasShield)
+        {
         currentLives -= damage;
         currentLives = Mathf.Max(currentLives, 0);
 
@@ -39,7 +66,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Die();
         }
-        
+        }
     }
 
     private void Die()
@@ -53,6 +80,22 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(1);
         }
+    }
+    void ActivateShield()
+    {
+        hasShield = true;
+        maxLives += 1;
+        currentLives = maxLives;
+        UpdateLivesUI();
+        if (ShieldSprite != null)
+        {
+            ShieldSprite.SetActive(true);
+        }
+        Debug.Log("Shield activated!");
+    }
+    void OnShieldBreak()
+    {
+        ShieldSprite.SetActive(false);
     }
     void UpdateLivesUI()
     {
